@@ -1,3 +1,4 @@
 import caffe
 import cv2
-i
+import sys
+import matplotlib.pyplot as pl
