@@ -7,4 +7,4 @@ import matplotlib.pyplot as plt
 def deploy(img_path):
 
     caffe.set_mode_gpu()
-    MODEL_JOB_DI
+    MODEL_JOB_DIR = '/dli/data/digits/20180301-185638-
