@@ -10,4 +10,4 @@ def deploy(img_path):
     MODEL_JOB_DIR = '/dli/data/digits/20180301-185638-e918'
     DATASET_JOB_DIR = '/dli/data/digits/20180222-165843-ada0'
     ARCHITECTURE = MODEL_JOB_DIR + '/deploy.prototxt'
-    
+    WEIGHTS = MODEL_JOB_DIR + '/snapshot_it
