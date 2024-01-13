@@ -12,4 +12,4 @@ def deploy(img_path):
     ARCHITECTURE = MODEL_JOB_DIR + '/deploy.prototxt'
     WEIGHTS = MODEL_JOB_DIR + '/snapshot_iter_735.caffemodel'
     
-    # Initiali
+    # Initialize the Caffe model using the model t
