@@ -13,4 +13,5 @@ def deploy(img_path):
     WEIGHTS = MODEL_JOB_DIR + '/snapshot_iter_735.caffemodel'
     
     # Initialize the Caffe model using the model trained in DIGITS.
-    net = 
+    net = caffe.Classifier(ARCHITECTURE, WEIGHTS,
+    
