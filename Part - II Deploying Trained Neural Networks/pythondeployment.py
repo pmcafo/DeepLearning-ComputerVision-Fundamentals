@@ -16,3 +16,4 @@ def deploy(img_path):
     net = caffe.Classifier(ARCHITECTURE, WEIGHTS,
                            channel_swap=(2,1,0),
                            raw_scale=255,
+                           image_d
