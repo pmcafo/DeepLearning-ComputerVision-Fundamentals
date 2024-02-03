@@ -15,4 +15,4 @@ def deploy(img_path):
     # Initialize the Caffe model using the model trained in DIGITS.
     net = caffe.Classifier(ARCHITECTURE, WEIGHTS,
                            channel_swap=(2,1,0),
-     
+                           raw_scale=255,
