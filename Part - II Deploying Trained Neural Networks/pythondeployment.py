@@ -18,4 +18,4 @@ def deploy(img_path):
                            raw_scale=255,
                            image_dims=(256, 256))
                        
-   
+    # Create an input that the network
