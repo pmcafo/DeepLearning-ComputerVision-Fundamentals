@@ -18,4 +18,5 @@ def deploy(img_path):
                            raw_scale=255,
                            image_dims=(256, 256))
                        
-    # Create an input that the network
+    # Create an input that the network expects. 
+    input_image= caffe.io.load
