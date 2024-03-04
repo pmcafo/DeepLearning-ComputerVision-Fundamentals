@@ -19,4 +19,5 @@ def deploy(img_path):
                            image_dims=(256, 256))
                        
     # Create an input that the network expects. 
-    input_image= caffe.io.load
+    input_image= caffe.io.load_image(img_path)
+    test_image = cv2.resize(input_image,
