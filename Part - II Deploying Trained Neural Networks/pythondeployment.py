@@ -20,4 +20,5 @@ def deploy(img_path):
                        
     # Create an input that the network expects. 
     input_image= caffe.io.load_image(img_path)
-    test_image = cv2.resize(input_image,
+    test_image = cv2.resize(input_image, (256,256))
+    mean_image = caffe
