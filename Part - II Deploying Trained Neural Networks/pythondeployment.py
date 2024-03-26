@@ -25,4 +25,6 @@ def deploy(img_path):
     test_image = test_image-mean_image
 
  
-    prediction = n
+    prediction = net.predict([test_image])
+    
+    #
