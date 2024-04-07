@@ -31,4 +31,6 @@ def deploy(img_path):
     #plt.imshow(sys.argv[1])
     #plt.show()
     #Image.open(input_image).show()
-    print(predi
+    print(prediction)
+    ##Create a useful output
+    print("Out
