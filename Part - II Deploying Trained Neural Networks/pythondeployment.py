@@ -28,4 +28,5 @@ def deploy(img_path):
     prediction = net.predict([test_image])
     
     #print("Input Image:")
+    #plt.imshow(sys.argv[1])
     #
