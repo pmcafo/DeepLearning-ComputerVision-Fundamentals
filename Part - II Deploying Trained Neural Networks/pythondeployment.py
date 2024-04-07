@@ -27,4 +27,5 @@ def deploy(img_path):
  
     prediction = net.predict([test_image])
     
+    #print("Input Image:")
     #
