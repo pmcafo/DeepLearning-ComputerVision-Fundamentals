@@ -33,4 +33,6 @@ def deploy(img_path):
     #Image.open(input_image).show()
     print(prediction)
     ##Create a useful output
-    print("Out
+    print("Output:")
+    if prediction.argmax()==0:
+     
