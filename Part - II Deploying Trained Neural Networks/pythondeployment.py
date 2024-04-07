@@ -35,4 +35,4 @@ def deploy(img_path):
     ##Create a useful output
     print("Output:")
     if prediction.argmax()==0:
-        print "Sorry cat:( https://med
+        print "Sorry cat:( https://media.giphy.com/media/jb8aFEQk3tADS/giph
