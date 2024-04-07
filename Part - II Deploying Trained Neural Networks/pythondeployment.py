@@ -30,4 +30,5 @@ def deploy(img_path):
     #print("Input Image:")
     #plt.imshow(sys.argv[1])
     #plt.show()
-    #Image.open(input_imag
+    #Image.open(input_image).show()
+    print(predi
