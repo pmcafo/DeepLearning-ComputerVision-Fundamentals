@@ -37,4 +37,8 @@ def deploy(img_path):
     if prediction.argmax()==0:
         print "Sorry cat:( https://media.giphy.com/media/jb8aFEQk3tADS/giphy.gif"
     else:
-        print "Welcome dog! https://www.flickr.com/photos/aid
+        print "Welcome dog! https://www.flickr.com/photos/aidras/5379402670"
+   
+
+    
+##Ignore this 
