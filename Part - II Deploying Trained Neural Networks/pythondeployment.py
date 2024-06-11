@@ -43,4 +43,4 @@ def deploy(img_path):
     
 ##Ignore this part    
 if __name__ == '__main__':
-    p
+    print(deploy(sys.argv[1]))
