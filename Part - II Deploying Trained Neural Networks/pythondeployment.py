@@ -41,4 +41,6 @@ def deploy(img_path):
    
 
     
-##Ignore this 
+##Ignore this part    
+if __name__ == '__main__':
+    p
